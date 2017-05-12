@@ -1,3 +1,6 @@
-body {
-  font: 100% Times, serif;
-  color: #829; }
+.o-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .o-list > .o-list__item {
+    vertical-align: top; }
