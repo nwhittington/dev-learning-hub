@@ -1,7 +1,6 @@
-$font-stack: Times, serif;
-$primary-color: #829;
+// style.scss file for dev-learning-hub
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-};
+
+@import 'node_modules/iotacss-settings-core/_settings.core';
+@import 'node_modules/iotacss-tools-core/_tools.core';
+@import 'node_modules/iotacss-objs-list/_objects.list';
