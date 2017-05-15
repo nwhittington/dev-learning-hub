@@ -4,3 +4,6 @@
   list-style: none; }
   .o-list > .o-list__item {
     vertical-align: top; }
+
+h1 {
+  font-size: 16px; }
