@@ -7,5 +7,10 @@
 @import 'node_modules/iotacss-objs-list/_objects.list';
 
 h1{
-  @include iota-type(16px, $breakpoints: $iota-global-breakpoints);
+  @include iota-type(
+    (
+      null: 12px,
+      sm  : 16px
+    )
+  );
 }
