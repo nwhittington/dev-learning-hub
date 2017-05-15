@@ -5,3 +5,7 @@
 @import 'node_modules/iotacss-tools-core/_tools.core';
 @import 'node_modules/iotacss-tools-type/_tools.type';
 @import 'node_modules/iotacss-objs-list/_objects.list';
+
+h1{
+  @include iota-type(16px, $breakpoints: $iota-global-breakpoints);
+}
